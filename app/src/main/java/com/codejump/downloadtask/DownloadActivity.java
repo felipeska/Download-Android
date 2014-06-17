@@ -140,7 +140,7 @@ public class DownloadActivity extends ActionBarActivity implements ICallBack{
     }
 
     @Override
-    public void taskProgress(Long progress) {
-        mProgressDialog.setProgress(Integer.parseInt(String.valueOf(progress)));
+    public void taskProgress(int progress) {
+        mProgressDialog.setProgress(progress);
     }
 }

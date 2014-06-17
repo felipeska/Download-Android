@@ -10,5 +10,5 @@ public interface ICallBack {
     Context getContext();
     void taskStart();
     void taskCompleted(Object result);
-    void taskProgress(Long progress);
+    void taskProgress(int progress);
 }
