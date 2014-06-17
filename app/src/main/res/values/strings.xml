@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DownloadTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="download_with_groundy">Download vía Groundy</string>
+    <string name="download_with_http_request">Download vía http-request</string>
+    <string name="file_downloaded">File downloaded!</string>
+    <string name="file_download_error">Error downloading file</string>
+</resources>

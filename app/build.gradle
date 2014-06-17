@@ -1,0 +1,29 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.1.0'
+    defaultConfig {
+        applicationId 'com.codejump.downloadtest'
+        minSdkVersion 10
+        targetSdkVersion 19
+        versionCode 1
+        versionName '1.0'
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:19.+'
+    compile 'com.jakewharton:butterknife:5.1.0'
+    compile 'com.telly:groundy:1.5'
+    compile 'com.github.kevinsawicki:http-request:5.6'
+}
